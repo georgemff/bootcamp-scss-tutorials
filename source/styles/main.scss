@@ -50,9 +50,7 @@ $color-11: #8FC567;
     padding: 11px 37px;
     font-size: 14px;
 
-    &:hover {
-        background-color: $color-3;
-    }
+   
 
     &.medium {
         font-size: 18px;
@@ -113,5 +111,8 @@ $color-11: #8FC567;
         &-8 {
             background-color: $color-8;
         }
+    }
+    &:hover {
+        background-color: $color-3;
     }
 }
